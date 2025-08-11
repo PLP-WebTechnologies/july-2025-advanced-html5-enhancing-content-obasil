@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Form</title>
+</head>
+<body>
+    <h1>Basil Onyayo's Itinerary</h1>
+    <h2>Speaking Locations</h2>
+    <ol>
+        <li>Berlin, Germany</li>
+        <li>Paris, France</li>
+        <li>London, United Kingdom</li>
+        <li>New York, USA</li>
+        <li>Tokyo, Japan</li>
+        <li>Sydney, Australia</li>
+    </ol>
+
+    <h2>Main Location Airport</h2>
+    <table border="1">
+        <tr>
+            <th>Airport Name</th>
+            <th>City</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Berlin Brandenburg Airport</td>
+            <td>Berlin</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Charles de Gaulle Airport</td>
+            <td>Paris</td>
+            <td>France</td>
+        </tr>
+        <tr>
+            <td>Heathrow Airport</td>
+            <td>London</td>
+            <td>United Kingdom</td>
+        </tr>
+        <tr>
+            <td>John F. Kennedy International Airport</td>
+            <td>New York</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Narita International Airport</td>
+            <td>Tokyo</td>
+            <td>Japan</td>
+        </tr>
+        <tr>
+            <td>Sydney Kingsford Smith Airport</td>
+            <td>Sydney</td>
+            <td>Australia</td>
+        </tr>
+    </table>
+
+    <h2>Interesting Sites To See</h2>
+    <ul>
+        <li>Brandenburg Gate in Berlin</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Brandenburger_Tor_abends.jpg/1280px-Brandenburger_Tor_abends.jpg" alt="Brandenburg Gate" width="200">
+        <li>Eiffel Tower in Paris</li>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/800px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg" alt="Eiffel Tower" width="200">
+        <li>Big Ben in London</li>
+        <video src="/assets/video/The chimes of Big Ben.mp4" controls width="200"></video>
+        <li>Statue of Liberty in New York</li>
+        <li>Shibuya Crossing in Tokyo</li>
+        <li>Sydney Opera House in Sydney</li>
+    </ul>
+
+    <h2>Basil's Favourite Song</h2>
+    <audio controls>
+        <source src="https://www.youtube.com/watch?v=HnPhaKs9PoA&ab_channel=DunsinOyekan" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h2>Booking Form</h2>
+    <form action="" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="destination">Destination:</label>
+        <select id="destination" name="destination">
+            <option value="berlin">Berlin</option>
+            <option value="paris">Paris</option>
+            <option value="london">London</option>
+            <option value="newyork">New York</option>
+            <option value="tokyo">Tokyo</option>
+            <option value="sydney">Sydney</option>
+        </select><br><br>
+
+        <input type="submit" value="Book Now">
+    </form>
+
+</body>
+</html>
